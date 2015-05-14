@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+/********* Estilo de cuadros menu principal *************/
+.listas{
+     display:inline-block;
+     height: 160px;
+     width: 160px;
+     text-align: center;
+     font-size:17px;
+    border-style: hidden;    
+}
+.color{
+    background-color: #D8D8D8;
+    color:black;
+    height: 135px;
+    width: 145px;
+    border-radius: 10px;   
+    padding-top: 50px;
+    margin-left:-10px;
+    margin-top: -5px;
+}
+/*********************************************************/
+/*****************COLOR BARRAS MENUS**********************/
+.barraMenu
+{
+    background-color: #BDBDBD;
+}
+/*********************************************************/
+/******************ICONO FAVORITO STAR********************/
+.iconoStar
+{
+    /*background-color: #848484;*/
+    width: 75px;
+    height: 42px;
+    margin-top: -5px;
+    margin-right: -5px;
+    
+    
+}
+
+
+

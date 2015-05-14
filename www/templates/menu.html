@@ -1,0 +1,20 @@
+<ion-side-menus  enable-menu-with-back-views="false">
+  <ion-side-menu-content >
+    <!--***** barra de contenido principal *****-->
+     <ion-nav-bar   class="bar-dark" class="bar-stable">
+      <!--***** boton retorno menu principal *****-->
+      <ion-nav-back-button class="ion-ios-arrow-left button button-icon">
+      </ion-nav-back-button>
+      <!--********** boton simbolo persona menu items **********-->
+       <ion-nav-buttons side="left">
+        <div side="left">
+              <button class="ion-person button button-icon" ng-click="login()" menu-toggle="left" >                     </button>
+        </div>
+      </ion-nav-buttons>
+     
+    </ion-nav-bar>
+    <!--***** visualizacion contenido menu principal *****-->
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+</ion-side-menus>

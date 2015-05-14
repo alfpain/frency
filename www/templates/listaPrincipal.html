@@ -1,0 +1,12 @@
+<!--***** listado principipal de proyecto *****-->
+ <ion-view view-title="Categorías">
+      <ion-content >
+            
+            <ion-item class="listas" ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+           
+               <div class="color" >
+                {{playlist.title}}
+            </div>
+          </ion-item>   
+      </ion-content>
+   </ion-view>
